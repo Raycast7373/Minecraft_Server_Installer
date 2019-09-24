@@ -1,0 +1,1 @@
+sudo screen -dmS MCServer java -Xms4G -Xmx8G -jar server.jar nogui
