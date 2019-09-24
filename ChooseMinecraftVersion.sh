@@ -19,8 +19,8 @@ sudo rm ./MinecraftServerJars/server.jar && sudo wget -O server.jar -P ./Minecra
  echo "SpongeForge Selected"
 sudo rm ./MinecraftServerJars/server.jar && sudo wget -O server.jar -P ./MinecraftServerJars https://repo.spongepowered.org/maven/org/spongepowered/spongeforge/1.12.2-2825-7.1.6/spongeforge-1.12.2-2825-7.1.6.jar && sudo bash nxt.sh
        ;;
-    *)
- echo "Invalid input..."
+    [exit]|[exit])
+ echo "Closing Script..."
  exit 1
  ;;
 esac
