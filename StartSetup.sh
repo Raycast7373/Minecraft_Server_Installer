@@ -1,1 +1,1 @@
-sudo chmod +x ./*.sh && sudo mkdir MinecraftServerJars && sudo bash setup.sh
+sudo chmod +x ./*.sh && apt install sudo -y && sudo mkdir MinecraftServerJars && sudo bash setup.sh
