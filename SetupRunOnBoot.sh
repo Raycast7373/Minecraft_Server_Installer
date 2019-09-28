@@ -6,16 +6,19 @@ case $input in
     [yY][eE][sS]|[yY])
  echo "Yes"
 sudo cp ./MinecraftServerJars/server.jar /Minecraft
+rm ./MinecraftServerJars/*
 sudo bash ./RunOnBootMethodeTest1.sh
  ;;
     [nN][oO]|[nN])
  echo "No"
 sudo cp ./MinecraftServerJars/server.jar /Minecraft
+rm ./MinecraftServerJars/*
  exit 1
        ;;
     *)
  echo "Invalid input..."
 sudo cp ./MinecraftServerJars/server.jar /Minecraft
+rm ./MinecraftServerJars/*
  exit 1
  ;;
 esac
